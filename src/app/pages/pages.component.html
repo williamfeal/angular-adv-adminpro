@@ -1,0 +1,47 @@
+<!-- A partir de aca la aplicacion  -->
+
+<div id="main-wrapper">
+    <app-header></app-header>
+    <app-sidebar></app-sidebar>
+    
+    <div class="page-wrapper">
+        
+        <div class="container-fluid">
+            <!-- Breadcumbs -->
+
+            <app-breadcrumbs></app-breadcrumbs>
+             
+            <!-- Mi sistema de rutas -->
+
+              <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                
+                                <router-outlet></router-outlet>
+                                <!-- This is some text within a card block. -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+
+
+        </div>   
+
+        <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © 20XX Admin Pro by wrappixel.com
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== --> 
+    
+    </div>
+
+</div>
